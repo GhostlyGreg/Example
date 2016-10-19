@@ -1,0 +1,122 @@
+/***********************************************************  
+ *  Name: Gregory James Caldwell Jr.                       *
+ *  Email: Gregory_Caldwell@student.uml.edu                *
+ *  File: Card.css                                         *
+ *  Starting Date: Thursday February 12th, 2014            *
+ *  Last Edited: Tuesday August 24th, 2016                 *
+ *  *** This is a recylced CSS file ***                    *
+ ***********************************************************/
+ 
+/* Order to CSS */
+/* Margin */ 
+/* Border */ 
+/* Background Colour */ 
+/* Padding */ 
+/* Height × Width */
+/* Other */
+
+/* Order to Direction */
+/* Left */ 
+/* Right */ 
+/* Top */
+/* Bottom */
+
+ /*
+ *  +-------------------+
+ *  |                   |
+ *  |      margin       |
+ *  |                   |
+ *  |  +---border----+  |
+ *  |  |             |  |
+ *  |  | (background |  |
+ *  |  |   colour)   |  |
+ *  |  |             |  |
+ *  |  |   padding   |  |
+ *  |  |             |  |
+ *  |  |  +-------+  |  |
+ *  |  |  | height|  |  |
+ *  |  |  |   ×   |  |  |
+ *  |  |  | width |  |  |
+ *  |  |  +-------+  |  |
+ *  |  +-------------+  |
+ *  +-------------------+
+ */
+ 
+body {
+    background-image: url("../images/background.png");
+    background-repeat: repeat-xy;
+}
+
+#headertitle {
+  font-family: "Rubik";
+  font-size: 100px;
+  color: white ;
+  text-align: center;
+}
+
+
+#mainContainer{
+  /* Margin */ 
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;  
+  margin-bottom: 10px;
+  /* Height × Width */
+}
+
+#cardName {
+  /* Text */
+  font-family: open_sanssemibold, Ariel, sans-serif;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+#cardImage {
+  /* Margin */ 
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 20px;   
+  /* Background Colour */
+  background-color: red;
+  /* Height × Width */
+  width: 220px;
+  height: 310px;
+  /* Other */
+  margin-left: auto;
+  margin-right: auto;
+
+}	
+
+#cardData {
+  /* Margin */ 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 80% ;
+  width: 80%;
+  
+  /* Text */
+  font-family: "Rubik" ;
+  font-size: 14px; 
+  
+  /* Background Colour */
+  background-color: gray; 
+}
+
+#cardData h2 {
+  color: white;
+   margin: 5px;   
+}
+
+#innerLeftColumn{
+  background-color: red ;
+  height: 70%
+}
+
+#innerRightColumn{
+  background-color: blue ;
+  height: 70%
+}
+
